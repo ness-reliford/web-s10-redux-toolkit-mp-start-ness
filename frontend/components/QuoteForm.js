@@ -1,6 +1,6 @@
 import React, { useReducer } from 'react'
 import { useDispatch } from 'react-redux'
-import { createQuote, getNextId } from '../state/quotesSlice'
+import { createQuote } from '../state/quotesSlice'
 
 const CHANGE_INPUT = 'CHANGE_INPUT'
 const RESET_FORM = 'RESET_FORM'
